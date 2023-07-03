@@ -1,0 +1,21 @@
+uuid: bf58b74d-d829-4a8a-a94a-6852380fb099
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_im
+    - node.type.post
+id: node.post.field_im
+field_name: field_im
+entity_type: node
+bundle: post
+label: 'Imagen del post'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings: {  }
+field_type: entity_reference

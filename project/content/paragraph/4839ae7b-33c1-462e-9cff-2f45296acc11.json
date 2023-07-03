@@ -1,0 +1,110 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "https:\/\/8080-alejandrovi-proyectofin-0zdorzbr8rv.ws-us101.gitpod.io\/rest\/type\/paragraph\/title_text_cta_"
+        },
+        "https:\/\/8080-alejandrovi-proyectofin-0zdorzbr8rv.ws-us101.gitpod.io\/rest\/relation\/paragraph\/title_text_cta_\/field_cta": [
+            {
+                "href": ""
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 2
+        }
+    ],
+    "uuid": [
+        {
+            "value": "4839ae7b-33c1-462e-9cff-2f45296acc11"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "title_text_cta_"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-07-03T05:43:21+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "5"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "paragraph"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_left_content"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_color_cta": [
+        {
+            "value": "blue"
+        }
+    ],
+    "_embedded": {
+        "https:\/\/8080-alejandrovi-proyectofin-0zdorzbr8rv.ws-us101.gitpod.io\/rest\/relation\/paragraph\/title_text_cta_\/field_cta": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-alejandrovi-proyectofin-0zdorzbr8rv.ws-us101.gitpod.io\/rest\/type\/paragraph\/cta"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c16d2787-b6b1-405c-87b8-5c9cdfa0f500"
+                    }
+                ],
+                "target_revision_id": "11"
+            }
+        ]
+    },
+    "field_text": [
+        {
+            "value": "Contenido"
+        }
+    ],
+    "field_title_cta": [
+        {
+            "value": "Titulo "
+        }
+    ]
+}

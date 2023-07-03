@@ -1,0 +1,29 @@
+uuid: 32da8715-c086-4b91-b8b2-b06b2de57024
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.publicaciones_recientes
+  module:
+    - system
+    - views
+  theme:
+    - lab3
+id: views_block__publicaciones_recientes_block_1
+theme: lab3
+region: sidebar
+weight: -7
+provider: null
+plugin: 'views_block:publicaciones_recientes-block_1'
+settings:
+  id: 'views_block:publicaciones_recientes-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /blog

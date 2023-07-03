@@ -1,0 +1,29 @@
+uuid: c8e30624-d58a-4135-ab21-001751187d51
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pa
+    - node.type.post
+    - taxonomy.vocabulary.palabras_c
+id: node.post.field_pa
+field_name: field_pa
+entity_type: node
+bundle: post
+label: 'Palabras clave'
+description: 'Seleccione las palabras clave.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      palabras_c: palabras_c
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

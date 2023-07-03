@@ -1,0 +1,40 @@
+uuid: df0ab316-878b-466a-8a42-b92becf2f628
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.post.body
+    - field.field.node.post.field_categoria_del_post
+    - field.field.node.post.field_en
+    - field.field.node.post.field_im
+    - field.field.node.post.field_pa
+    - field.field.node.post.field_se
+    - node.type.post
+  module:
+    - text
+    - user
+id: node.post.teaser
+targetEntityType: node
+bundle: post
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_categoria_del_post: true
+  field_en: true
+  field_im: true
+  field_pa: true
+  field_se: true

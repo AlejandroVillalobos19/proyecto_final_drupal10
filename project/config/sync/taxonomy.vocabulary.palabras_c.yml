@@ -1,0 +1,8 @@
+uuid: e0f414e3-8a99-433c-9f61-b32d2139f404
+langcode: en
+status: true
+dependencies: {  }
+name: 'Palabras Claves'
+vid: palabras_c
+description: 'Vocabulario de KeyWords'
+weight: 0

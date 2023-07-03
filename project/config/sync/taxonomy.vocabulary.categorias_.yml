@@ -1,0 +1,8 @@
+uuid: 76596381-a9a4-4fb0-bdaa-36888f4de4d0
+langcode: en
+status: true
+dependencies: {  }
+name: Categorias
+vid: categorias_
+description: 'Vocabulario de categorias'
+weight: 0
