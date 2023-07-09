@@ -5,14 +5,16 @@ dependencies:
   config:
     - core.entity_view_display.comment.comment.default
     - field.field.node.post.body
+    - field.field.node.post.field__media
+    - field.field.node.post.field_card_component
     - field.field.node.post.field_categoria_del_post
     - field.field.node.post.field_en
-    - field.field.node.post.field_im
     - field.field.node.post.field_pa
     - field.field.node.post.field_se
     - node.type.post
   module:
     - comment
+    - entity_reference_revisions
     - text
     - user
 id: node.post.default
@@ -27,6 +29,24 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
+  field__media:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_card_component:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 5
+    region: content
   field_categoria_del_post:
     type: entity_reference_label
     label: above
@@ -34,15 +54,6 @@ content:
       link: true
     third_party_settings: {  }
     weight: 3
-    region: content
-  field_im:
-    type: entity_reference_entity_view
-    label: above
-    settings:
-      view_mode: default
-      link: false
-    third_party_settings: {  }
-    weight: 1
     region: content
   field_se:
     type: comment_default

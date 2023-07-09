@@ -1,0 +1,32 @@
+uuid: 08626123-ac0b-4bf3-9b54-c724b642b29e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.card_cta.field_card_cta
+    - field.field.paragraph.card_cta.field_cta_style
+    - paragraphs.paragraphs_type.card_cta
+  module:
+    - link
+id: paragraph.card_cta.default
+targetEntityType: paragraph
+bundle: card_cta
+mode: default
+content:
+  field_card_cta:
+    type: link_default
+    weight: 0
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_cta_style:
+    type: options_select
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

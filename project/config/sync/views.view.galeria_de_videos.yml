@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.node.teaser
+    - core.entity_view_mode.node.full
     - node.type.video
     - system.menu.main
   module:
@@ -76,7 +76,7 @@ display:
         type: mini
         options:
           offset: 0
-          items_per_page: 20
+          items_per_page: 6
           total_pages: null
           id: 0
           tags:
@@ -148,11 +148,18 @@ display:
           value:
             video: video
       style:
-        type: default
+        type: grid_responsive
+        options:
+          uses_fields: false
+          columns: 3
+          cell_min_width: 100
+          grid_gutter: 10
+          alignment: horizontal
       row:
         type: 'entity:node'
         options:
-          view_mode: teaser
+          relationship: none
+          view_mode: full
       query:
         type: views_query
         options:

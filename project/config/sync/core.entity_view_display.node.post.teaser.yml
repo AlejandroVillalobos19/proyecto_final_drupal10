@@ -5,9 +5,10 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.post.body
+    - field.field.node.post.field__media
+    - field.field.node.post.field_card_component
     - field.field.node.post.field_categoria_del_post
     - field.field.node.post.field_en
-    - field.field.node.post.field_im
     - field.field.node.post.field_pa
     - field.field.node.post.field_se
     - node.type.post
@@ -33,8 +34,9 @@ content:
     weight: 100
     region: content
 hidden:
+  field__media: true
+  field_card_component: true
   field_categoria_del_post: true
   field_en: true
-  field_im: true
   field_pa: true
   field_se: true

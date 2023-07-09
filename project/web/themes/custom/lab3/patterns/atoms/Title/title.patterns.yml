@@ -1,0 +1,28 @@
+title:
+  label: 'Title'
+  description: 'Title component'
+  variants:
+    default:
+      label: Default Titlte
+      variant: blueDark
+    blueDark:
+      label: blueDark title
+      description: Title blueDark coloured 
+    blueMid:
+      label: blueMid Title
+      description: Title blueMid coloured 
+    blueLight:
+      label: blueLight Title
+      description: Title blueLight coloured
+  fields:
+      text:
+        type: string
+        label: Title text
+        description: Text of the Title
+        preview: 'Community Initiatives'
+  libraries:
+    -
+      title:
+        css:
+          component:
+            css/styles.css: {}

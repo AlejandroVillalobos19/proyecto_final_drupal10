@@ -1,0 +1,23 @@
+.cta{
+    background-color: #004883;
+    padding: 1em 2em;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 70px;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.cta:hover{
+    background-color: white;
+    color: #008081;
+    border: 1px #008081 solid;
+}
+
+.cta--blueMid{
+    background-color: #067ED1;
+}
+
+.cta--blueLight{
+    background-color: #44C2F4;
+}

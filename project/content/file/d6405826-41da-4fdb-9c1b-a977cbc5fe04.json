@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "https:\/\/8080-alejandrovi-proyectofin-0zdorzbr8rv.ws-us101.gitpod.io\/sites\/default\/files\/oembed_thumbnails\/2023-07\/Srxoz70usq_RuTisgB5U0IeSkcdTCTaoM0Ty3kJZPS8.jpg"
+        },
+        "type": {
+            "href": "https:\/\/8080-alejandrovi-proyectofin-0zdorzbr8rv.ws-us101.gitpod.io\/rest\/type\/file\/file"
+        },
+        "https:\/\/8080-alejandrovi-proyectofin-0zdorzbr8rv.ws-us101.gitpod.io\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "https:\/\/8080-alejandrovi-proyectofin-0zdorzbr8rv.ws-us101.gitpod.io\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 8
+        }
+    ],
+    "uuid": [
+        {
+            "value": "d6405826-41da-4fdb-9c1b-a977cbc5fe04"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "https:\/\/8080-alejandrovi-proyectofin-0zdorzbr8rv.ws-us101.gitpod.io\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-alejandrovi-proyectofin-0zdorzbr8rv.ws-us101.gitpod.io\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-alejandrovi-proyectofin-0zdorzbr8rv.ws-us101.gitpod.io\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e4360dbf-63f0-45a1-9d12-423ea79cde90"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "Srxoz70usq_RuTisgB5U0IeSkcdTCTaoM0Ty3kJZPS8.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/2023-07\/Srxoz70usq_RuTisgB5U0IeSkcdTCTaoM0Ty3kJZPS8.jpg",
+            "url": "\/sites\/default\/files\/oembed_thumbnails\/2023-07\/Srxoz70usq_RuTisgB5U0IeSkcdTCTaoM0Ty3kJZPS8.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 17732
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-07-07T00:23:20+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-07-07T00:23:20+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

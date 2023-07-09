@@ -1,0 +1,80 @@
+{
+    "_links": {
+        "self": {
+            "href": "https:\/\/8080-alejandrovi-proyectofin-0zdorzbr8rv.ws-us101.gitpod.io\/acsi-amet-commodo-illum-jugis-ludus-metuo-refoveo-scisco-sudo.?_format=hal_json"
+        },
+        "type": {
+            "href": "https:\/\/8080-alejandrovi-proyectofin-0zdorzbr8rv.ws-us101.gitpod.io\/rest\/type\/media\/video"
+        },
+        "https:\/\/8080-alejandrovi-proyectofin-0zdorzbr8rv.ws-us101.gitpod.io\/rest\/relation\/media\/video\/revision_user": [
+            {
+                "href": "https:\/\/8080-alejandrovi-proyectofin-0zdorzbr8rv.ws-us101.gitpod.io\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 1
+        }
+    ],
+    "uuid": [
+        {
+            "value": "ed885963-2ae3-4328-b204-c808d0d4d8b2"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "und",
+            "lang": "und"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2023-07-07T00:21:20+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "https:\/\/8080-alejandrovi-proyectofin-0zdorzbr8rv.ws-us101.gitpod.io\/rest\/relation\/media\/video\/revision_user": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-alejandrovi-proyectofin-0zdorzbr8rv.ws-us101.gitpod.io\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-alejandrovi-proyectofin-0zdorzbr8rv.ws-us101.gitpod.io\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e4360dbf-63f0-45a1-9d12-423ea79cde90"
+                    }
+                ]
+            }
+        ]
+    },
+    "revision_log_message": [
+        {
+            "value": "Illum iusto meus rusticus veniam. Causa hos immitto neque quidne similis suscipere typicus. Commodo consectetuer ibidem iriure nimis odio quae roto venio zelus. Commodo esca haero probo. Dolore exerci ideo. Distineo humo iaceo jus similis valetudo venio. Aliquam autem eu euismod eum letalis nutus utinam valetudo.\n\nAbbas ad eros oppeto refero vel venio. Abigo incassum modo occuro oppeto pecus ut vel. Abigo feugiat gilvus hendrerit ideo quibus secundum. Commoveo consequat iaceo iusto vicis. Ea nulla nutus oppeto patria pertineo praemitto quadrum quae. Causa commoveo dignissim magna mauris. Blandit inhibeo vicis.\n\nFere modo neo praemitto secundum turpis utinam valde. Dignissim ea in sagaciter uxor. Aliquam ideo magna nibh praemitto quidne uxor valetudo venio volutpat.\n\nAd esca incassum laoreet pecus sudo ulciscor. Augue blandit imputo luctus meus utinam. Haero olim populus te. Melior natu nibh sed tego. Abdo acsi causa commoveo eligo occuro vulpes. Abbas amet cogo et exerci laoreet melior oppeto ullamcorper ymo. Ad cogo macto molior pneum refoveo ut vel. Augue bene humo ludus magna neque sagaciter volutpat.\n\nAbdo dolor eligo facilisis ibidem odio pecus quadrum refoveo torqueo. Esse facilisis melior neo. Accumsan conventio macto proprius refoveo si. Distineo eum inhibeo iustum lenis macto probo valde vindico. Autem exerci molior populus probo qui suscipit. Acsi ea gemino iriure neque paulatim saluto tation vindico. Abico conventio melior metuo neque paratus refoveo. Eu nibh quibus ullamcorper valde vereor vicis vulpes.\n\nIbidem ille ratis ullamcorper venio. Decet nulla saluto utrum. Blandit comis jumentum metuo probo refoveo typicus ut. Erat genitus nulla ulciscor. Antehabeo eros pecus probo sed suscipit. Eu gilvus haero iaceo molior persto refero tation. Elit rusticus turpis. Accumsan at dolor patria veniam. Conventio oppeto plaga praemitto tation usitas utrum.\n\nCui erat odio. Abigo facilisi populus quidem saluto ulciscor utinam voco vulpes. Caecus nunc secundum ut virtus. Abbas adipiscing amet facilisis modo ullamcorper utrum. Inhibeo quibus valetudo. Haero inhibeo interdico luptatum validus. Antehabeo commodo cui duis genitus immitto ullamcorper. Nostrud pecus persto rusticus suscipere.\n\nAutem eum hos in interdico pagus probo validus verto. Abigo dolor hos letalis nutus olim. Aliquip feugiat lenis sudo tamen utinam. Singularis vereor voco. Abbas acsi cui dolore euismod incassum lenis nimis utinam. Bene ex fere haero jugis modo mos rusticus validus vereor. Augue elit iaceo saluto sed ut zelus.\n\nAbdo at odio pagus patria persto suscipit ulciscor veniam. Appellatio molior nibh nobis ulciscor. Brevitas facilisis genitus ibidem neo usitas. Abbas at capto euismod nibh quadrum suscipit te. Abico dolore eros ibidem nimis obruo pagus tamen ulciscor. Consequat esca ex facilisi facilisis fere genitus mauris metuo obruo.\n\nAt autem consequat elit eum hendrerit meus. Caecus facilisi facilisis nibh paratus. Dignissim exerci imputo incassum lobortis odio tincidunt verto virtus. Diam feugiat neque. Appellatio brevitas os. Bene caecus diam ex incassum jus molior nulla quadrum. Exputo immitto ludus nibh nobis paulatim ulciscor velit verto zelus.\n\nAbdo accumsan defui illum jumentum jus paulatim suscipere usitas voco. Commodo ludus validus venio. Amet cogo haero letalis paulatim probo. Aptent iaceo lucidus scisco vulputate.\n\nAdipiscing eum fere gilvus gravis jus quidem quis similis. Amet consectetuer feugiat hos quadrum quidem wisi ymo. Laoreet populus quis singularis sudo ut. Cui dolor dolus lucidus melior similis sino.\n\n"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/acsi-amet-commodo-illum-jugis-ludus-metuo-refoveo-scisco-sudo.",
+            "pid": 1,
+            "langcode": "und",
+            "lang": "und"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "swubriwijumivogiseshodewodrewiwaslajusagudejabricuprunadipromecharuspashithipripocrobehecheviphasecauestekaluframofriprifroshachishuhuthavenilopricowroshachihotouitichuvastafri",
+            "lang": "und"
+        }
+    ]
+}

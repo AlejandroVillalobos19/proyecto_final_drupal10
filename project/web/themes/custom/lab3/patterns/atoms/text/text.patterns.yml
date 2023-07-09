@@ -1,0 +1,28 @@
+text:
+  label: 'Text'
+  description: 'Text component'
+  variants:
+    default:
+      label: Default Text
+      variant: blueDark
+    blueDark:
+      label: blueDark Text
+      description: Text blueDark coloured 
+    blueMid:
+      label: blueMid Text
+      description: Text blueMid coloured 
+    blueLight:
+      label: blueLight Text
+      description: Text blueLight coloured
+  fields:
+      text:
+        type: string
+        label:  text
+        description: Text 
+        preview: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec augue cursus, imperdiet purus nec, pharetra tellus. Pellentesque auctor fringilla tortor, eu varius quam euismod nec. Ut lectus dolor, egestas euismod commodo at, eleifend ut quam. Nam iaculis sapien eu ex placerat suscipit. Duis ac leo tempor, consectetur quam vel, finibus nulla.'
+  libraries:
+    -
+      text:
+        css:
+          component:
+            css/styles.css: {}

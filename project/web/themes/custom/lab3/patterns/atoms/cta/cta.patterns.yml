@@ -1,0 +1,33 @@
+cta: 
+  label: 'CTA'
+  description: 'CTA component'
+  variants:
+    default:
+      label: Default CTA
+      variant: blueDark
+    blueDark:
+      label: blueDark CTA
+      description: CTA with blueDark Background
+    blueMid: 
+      label: blueMid CTA
+      description: CTA with blueMid Background
+    blueLight:
+      label: blueLight CTA
+      description: CTA with blueLight Background
+  fields:
+      text:
+        type: string
+        label: CTA text
+        description: Text to be placed on the CTA.
+        preview: 'Ingresar'
+      url:
+        type: url
+        label: URL
+        description: URL that user will be redirected to.
+        preview: https://www.google.com
+  libraries:
+    -
+      cta:
+        css:
+          component:
+            css/styles.css: {}

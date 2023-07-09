@@ -1,0 +1,110 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "https:\/\/8080-alejandrovi-proyectofin-0zdorzbr8rv.ws-us101.gitpod.io\/rest\/type\/paragraph\/card"
+        },
+        "https:\/\/8080-alejandrovi-proyectofin-0zdorzbr8rv.ws-us101.gitpod.io\/rest\/relation\/paragraph\/card\/field_card_btn_cta": [
+            {
+                "href": ""
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 11
+        }
+    ],
+    "uuid": [
+        {
+            "value": "e50976f8-3960-47f0-88e6-f8546742567e"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "card"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-07-06T23:45:43+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "4"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_card_component"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "https:\/\/8080-alejandrovi-proyectofin-0zdorzbr8rv.ws-us101.gitpod.io\/rest\/relation\/paragraph\/card\/field_card_btn_cta": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-alejandrovi-proyectofin-0zdorzbr8rv.ws-us101.gitpod.io\/rest\/type\/paragraph\/card_cta"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4ad10a22-41c8-4454-868b-2ed3baf21baf"
+                    }
+                ],
+                "target_revision_id": "41"
+            }
+        ]
+    },
+    "field_card_color": [
+        {
+            "value": "blueLight"
+        }
+    ],
+    "field_card_text": [
+        {
+            "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ullamcorper mauris non ex gravida, sit amet vehicula sem rutrum. Donec semper dolor quis dolor posuere, non fringilla enim mattis. Nullam lacinia, urna in sollicitudin euismod, tellus orci interdum nunc, in convallis sem leo quis tortor."
+        }
+    ],
+    "field_card_title": [
+        {
+            "value": "Drupal Artisans"
+        }
+    ]
+}

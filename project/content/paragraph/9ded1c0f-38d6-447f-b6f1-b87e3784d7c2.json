@@ -1,0 +1,110 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "https:\/\/8080-alejandrovi-proyectofin-0zdorzbr8rv.ws-us101.gitpod.io\/rest\/type\/paragraph\/card"
+        },
+        "https:\/\/8080-alejandrovi-proyectofin-0zdorzbr8rv.ws-us101.gitpod.io\/rest\/relation\/paragraph\/card\/field_card_btn_cta": [
+            {
+                "href": ""
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 15
+        }
+    ],
+    "uuid": [
+        {
+            "value": "9ded1c0f-38d6-447f-b6f1-b87e3784d7c2"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "card"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-07-07T00:10:18+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "4"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_card_component"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "https:\/\/8080-alejandrovi-proyectofin-0zdorzbr8rv.ws-us101.gitpod.io\/rest\/relation\/paragraph\/card\/field_card_btn_cta": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-alejandrovi-proyectofin-0zdorzbr8rv.ws-us101.gitpod.io\/rest\/type\/paragraph\/card_cta"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "76764641-8f29-4787-85a0-81772962b624"
+                    }
+                ],
+                "target_revision_id": "45"
+            }
+        ]
+    },
+    "field_card_color": [
+        {
+            "value": "blueMid"
+        }
+    ],
+    "field_card_text": [
+        {
+            "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ullamcorper mauris non ex gravida, sit amet vehicula sem rutrum. Donec semper dolor quis dolor posuere, non fringilla enim mattis. Nullam lacinia, urna in sollicitudin euismod, tellus orci interdum nunc, in convallis sem leo quis tortor."
+        }
+    ],
+    "field_card_title": [
+        {
+            "value": "Investigations"
+        }
+    ]
+}

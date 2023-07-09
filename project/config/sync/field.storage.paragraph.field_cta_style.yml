@@ -1,0 +1,33 @@
+uuid: cabf4a89-9f93-4933-b436-690e4e194597
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_cta_style
+field_name: field_cta_style
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: default
+      label: 'Default Button'
+    -
+      value: blueDark
+      label: 'Dark Button'
+    -
+      value: blueMid
+      label: 'Mid Button'
+    -
+      value: blueLight
+      label: 'Light Button'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,29 @@
+uuid: 21525868-356d-4165-aaca-0134fc2d7003
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field__media
+    - media.type.foto
+    - node.type.post
+id: node.post.field__media
+field_name: field__media
+entity_type: node
+bundle: post
+label: ' Media'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      foto: foto
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

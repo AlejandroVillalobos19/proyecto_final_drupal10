@@ -1,0 +1,49 @@
+uuid: 8c002156-24ae-4b64-a2df-4ebfa961ea4a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_card_btn_cta
+    - paragraphs.paragraphs_type.card
+    - paragraphs.paragraphs_type.card_cta
+  module:
+    - entity_reference_revisions
+id: paragraph.card.field_card_btn_cta
+field_name: field_card_btn_cta
+entity_type: paragraph
+bundle: card
+label: Card_cta
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      card_cta: card_cta
+    negate: 0
+    target_bundles_drag_drop:
+      card:
+        weight: 8
+        enabled: false
+      card_cta:
+        weight: 9
+        enabled: true
+      cta:
+        weight: 10
+        enabled: false
+      layout_2_columns:
+        weight: 11
+        enabled: false
+      title_text_cta:
+        weight: 12
+        enabled: false
+      title_text_cta_:
+        weight: 13
+        enabled: false
+      two_colums_content:
+        weight: 14
+        enabled: false
+field_type: entity_reference_revisions

@@ -1,0 +1,10 @@
+uuid: ea44b4a2-1aa7-4b05-888d-ee015dec7f1f
+langcode: en
+status: true
+dependencies: {  }
+id: card_cta
+label: card_CTA
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

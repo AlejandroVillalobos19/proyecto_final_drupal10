@@ -1,0 +1,33 @@
+uuid: af19bf32-9a05-4032-951d-e66e85c24b88
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_card_color
+field_name: field_card_color
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: default
+      label: 'Default Card'
+    -
+      value: blueDark
+      label: 'Dark Card'
+    -
+      value: blueMid
+      label: 'Mid Card'
+    -
+      value: blueLight
+      label: 'Light Card'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

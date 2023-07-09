@@ -1,0 +1,34 @@
+.card.card__cta{
+    padding: 2rem;
+
+}
+
+.card.card__cta--blueDark{
+    background-color: #004883;
+    color: white;
+}
+
+.card.card__cta--blueMid{
+    background-color: #067ED1;
+    color: white;
+}
+
+.card.card__cta--blueLight{
+    background-color: #44C2F4;
+    color: white;
+}
+
+
+
+.card__cta--blueDark h5.card_title,
+.card__cta--blueMid h5.card_title,
+.card__cta--blueLight h5.card_title{
+    color: white;
+}
+p.card_text{
+    margin-bottom: 3rem;
+}
+.card__cta--blueDark .cta{
+    background-color: white;
+    color: black;
+}

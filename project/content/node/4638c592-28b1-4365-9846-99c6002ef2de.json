@@ -17,6 +17,22 @@
                 "lang": "en"
             }
         ],
+        "https:\/\/8080-alejandrovi-proyectofin-0zdorzbr8rv.ws-us101.gitpod.io\/rest\/relation\/node\/post\/field__media": [
+            {
+                "href": "https:\/\/8080-alejandrovi-proyectofin-0zdorzbr8rv.ws-us101.gitpod.io\/media\/10\/edit?_format=hal_json"
+            }
+        ],
+        "https:\/\/8080-alejandrovi-proyectofin-0zdorzbr8rv.ws-us101.gitpod.io\/rest\/relation\/node\/post\/field_card_component": [
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            }
+        ],
         "https:\/\/8080-alejandrovi-proyectofin-0zdorzbr8rv.ws-us101.gitpod.io\/rest\/relation\/node\/post\/field_categoria_del_post": [
             {
                 "href": "https:\/\/8080-alejandrovi-proyectofin-0zdorzbr8rv.ws-us101.gitpod.io\/taxonomy\/term\/1?_format=hal_json"
@@ -57,7 +73,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-07-03T06:23:44+00:00",
+            "value": "2023-07-09T03:35:17+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -95,6 +111,73 @@
                     }
                 ],
                 "lang": "en"
+            }
+        ],
+        "https:\/\/8080-alejandrovi-proyectofin-0zdorzbr8rv.ws-us101.gitpod.io\/rest\/relation\/node\/post\/field__media": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-alejandrovi-proyectofin-0zdorzbr8rv.ws-us101.gitpod.io\/media\/10\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-alejandrovi-proyectofin-0zdorzbr8rv.ws-us101.gitpod.io\/rest\/type\/media\/foto"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "013cd359-39a4-444d-a1c3-a9a1018d3304"
+                    }
+                ]
+            }
+        ],
+        "https:\/\/8080-alejandrovi-proyectofin-0zdorzbr8rv.ws-us101.gitpod.io\/rest\/relation\/node\/post\/field_card_component": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-alejandrovi-proyectofin-0zdorzbr8rv.ws-us101.gitpod.io\/rest\/type\/paragraph\/card"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e50976f8-3960-47f0-88e6-f8546742567e"
+                    }
+                ],
+                "target_revision_id": "42"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-alejandrovi-proyectofin-0zdorzbr8rv.ws-us101.gitpod.io\/rest\/type\/paragraph\/card"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b23931fa-e821-460b-9d40-1a22bf512e83"
+                    }
+                ],
+                "target_revision_id": "44"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-alejandrovi-proyectofin-0zdorzbr8rv.ws-us101.gitpod.io\/rest\/type\/paragraph\/card"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9ded1c0f-38d6-447f-b6f1-b87e3784d7c2"
+                    }
+                ],
+                "target_revision_id": "46"
             }
         ],
         "https:\/\/8080-alejandrovi-proyectofin-0zdorzbr8rv.ws-us101.gitpod.io\/rest\/relation\/node\/post\/field_categoria_del_post": [
@@ -183,7 +266,7 @@
     ],
     "changed": [
         {
-            "value": "2023-07-03T06:23:44+00:00",
+            "value": "2023-07-09T03:35:17+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }

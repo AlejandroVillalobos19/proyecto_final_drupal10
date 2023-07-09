@@ -1,0 +1,60 @@
+uuid: 27b8b584-b081-4d5c-9a6b-e0d0076ea1a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.card.field_card_btn_cta
+    - field.field.paragraph.card.field_card_color
+    - field.field.paragraph.card.field_card_text
+    - field.field.paragraph.card.field_card_title
+    - paragraphs.paragraphs_type.card
+  module:
+    - paragraphs
+id: paragraph.card.default
+targetEntityType: paragraph
+bundle: card
+mode: default
+content:
+  field_card_btn_cta:
+    type: paragraphs
+    weight: 3
+    region: content
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      closed_mode: summary
+      autocollapse: none
+      closed_mode_threshold: 0
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+      features:
+        collapse_edit_all: collapse_edit_all
+        duplicate: duplicate
+    third_party_settings: {  }
+  field_card_color:
+    type: options_select
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_card_text:
+    type: string_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_card_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

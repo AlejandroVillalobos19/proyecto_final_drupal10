@@ -1,0 +1,36 @@
+uuid: c6c6e067-05fb-40d9-85bf-a6453c276708
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.card_cta.field_card_cta
+    - field.field.paragraph.card_cta.field_cta_style
+    - paragraphs.paragraphs_type.card_cta
+  module:
+    - link
+    - options
+id: paragraph.card_cta.default
+targetEntityType: paragraph
+bundle: card_cta
+mode: default
+content:
+  field_card_cta:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_cta_style:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

@@ -1,0 +1,34 @@
+card:
+  label: 'Card'
+  description: 'Card Component'
+  variants:
+    default:
+      label: Default - Transparent 
+    blueDark:
+      label: blueDark BackGround
+    blueMid:
+      label: blueMid BackGround
+    blueLight:
+      label: blueLight BackGround
+  fields:
+    title: 
+      type: string
+      label: Title 
+      description: Title of the card
+      preview: 'Titulo de card'
+    text: 
+      type: string
+      label: Text
+      description: Text of the card
+      preview: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla, felis eu mollis luctus, mauris augue tempor dui, ut facilisis lacus sapien eget nisi. Sed fermentum velit augue, ac ornare lacus venenatis quis. Duis eget orci sit amet velit accumsan aliquet. Aenean at purus commodo, tempus lorem et, feugiat ligula.'
+    cta: 
+      type: mixed
+      label: CTA
+      description: Call to Action
+      preview: <a href="#" class="cta cta--blueDark">Ingresar</a>
+  libraries:
+    -
+      button:
+        css:
+          component:
+            css/styles.css: {}
